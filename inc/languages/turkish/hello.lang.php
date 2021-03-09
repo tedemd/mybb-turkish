@@ -1,4 +1,5 @@
 <?php
+
 /**
  * MyBB 1.8
  * Copyright 2014 MyBB Group, All Rights Reserved
@@ -8,9 +9,9 @@
  *
  */
 
-$l['hello'] = 'Hello World!';
-$l['hello_add'] = 'Add';
-$l['hello_add_message'] = 'Add Message';
-$l['hello_empty'] = 'No messages were found.';
-$l['hello_message_empty'] = 'Message cannot be empty.';
-$l['hello_done'] = 'Successfully added a new message.';
+$l['hello'] = 'Merhaba Dünya!';
+$l['hello_add'] = 'Ekle';
+$l['hello_add_message'] = 'Mesaj Ekle';
+$l['hello_empty'] = 'Mesaj bulunamadı.';
+$l['hello_message_empty'] = 'Mesaj boş olamaz.';
+$l['hello_done'] = 'Başarıyla yeni bir mesaj eklendi.';
