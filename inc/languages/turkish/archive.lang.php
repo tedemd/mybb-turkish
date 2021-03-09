@@ -1,18 +1,19 @@
 <?php
+
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Turkish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['archive_fullversion'] = "Full Version:";
-$l['archive_replies'] = "Replies";
-$l['archive_reply'] = "Reply";
-$l['archive_pages'] = "Pages:";
-$l['archive_note'] = "You're currently viewing a stripped down version of our content. <a href=\"{1}\">View the full version</a> with proper formatting.";
-$l['archive_nopermission'] = "Sorry, you do not have permission to access this resource.";
-$l['error_nothreads'] = "There are currently no threads in this forum.";
-$l['error_nopermission'] = "You do not have permission to view threads in this forum.";
-$l['error_unapproved_thread'] = "This thread is unapproved. Please <a href=\"{1}\">view the full version</a> to view the contents of this thread.";
-$l['archive_not_found'] = "The requested page was not found on this server.";
-$l['error_mustlogin'] = "This bulletin board requires all users to login.";
+$l['archive_fullversion'] = "Tam versiyon:";
+$l['archive_replies'] = "Cevaplar";
+$l['archive_reply'] = "Cevap";
+$l['archive_pages'] = "Sayfalar:";
+$l['archive_note'] = "Şu anda içeriğimizin basitleştirilmiş bir sürümünü görüntülüyorsunuz. Uygun biçimlendirme ile <a href=\"{1}\">tam sürümü görüntüleyin</a>.";
+$l['archive_nopermission'] = "Üzgünüz, bu kaynağa erişim izniniz yok.";
+$l['error_nothreads'] = "Şu anda bu forumda konu yok.";
+$l['error_nopermission'] = "Bu forumdaki konuları görüntüleme izniniz yok.";
+$l['error_unapproved_thread'] = "Bu konu onaylanmamış. Bu konu içeriğini görüntülemek için <a href=\"{1}\">tam sürümü görüntüleyin</a>.";
+$l['archive_not_found'] = "İstenen sayfa bu sunucuda bulunamadı.";
+$l['error_mustlogin'] = "Bu forum tüm kullanıcıların oturum açmasını gerektirir.";
