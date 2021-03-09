@@ -1,26 +1,26 @@
 <?php
+
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Turkish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['contact'] = 'Contact Us';
-$l['contact_no_message'] = 'You have not provided a message to send.';
-$l['contact_no_subject'] = 'You are required to enter a subject.';
-$l['contact_no_email'] = 'You must enter a valid email address.';
-$l['contact_success_message'] = 'Your message has been successfully sent to the Administrator.';
-$l['contact_subject'] = 'Subject';
-$l['contact_subject_desc'] = 'Brief the topic of your message.';
-$l['contact_message'] = 'Message';
-$l['contact_message_desc'] = 'Describe your concern in this area in detail.';
-$l['contact_email'] = 'Email';
-$l['contact_email_desc'] = 'Enter your email so we can contact you back.';
-$l['contact_send'] = 'Send';
-$l['subject_too_long'] = 'The subject is too long. Please enter a subject shorter than {1} characters (currently {2}).';
-$l['message_too_short'] = 'The message is too short. Please enter a message longer than {1} characters (currently {2}).';
-$l['message_too_long'] = 'The message is too long. Please enter a message shorter than {1} characters (currently {2}).';
+$l['contact'] = 'İletişim';
+$l['contact_no_message'] = 'Göndermek için bir mesaj girmediniz.';
+$l['contact_no_subject'] = 'Bir konu girmeniz gerekiyor.';
+$l['contact_no_email'] = 'Geçerli bir e-posta adresi girmelisiniz.';
+$l['contact_success_message'] = 'Mesajınız yöneticiye başarıyla gönderildi.';
+$l['contact_subject'] = 'Konu';
+$l['contact_subject_desc'] = 'Mesajınızın konusunu özetleyin.';
+$l['contact_message'] = 'Mesaj';
+$l['contact_message_desc'] = 'Bu alanda mesajınızı ayrıntılı olarak açıklayın.';
+$l['contact_email'] = 'e-Posta';
+$l['contact_email_desc'] = 'e-Posta adresinizi girin, böylece sizinle tekrar iletişime geçebiliriz.';
+$l['contact_send'] = 'Gönder';
+$l['subject_too_long'] = 'Konu çok uzun. Lütfen {1} karakterden kısa bir konu girin (şu anda {2}).';
+$l['message_too_short'] = 'Mesaj çok kısa. Lütfen {1} karakterden uzun bir mesaj girin (şu anda {2}).';
+$l['message_too_long'] = 'Mesaj çok uzun. Lütfen {1} karakterden daha kısa bir mesaj girin (şu anda {2}).';
 
-$l['error_stop_forum_spam_spammer'] = 'Sorry, {1} matches that of a known spammer and therefore your contact submission has been blocked.';
-$l['error_stop_forum_spam_fetching'] = 'Sorry, something went wrong verifying your message against a spammer database. Most likely the database couldn\'t be accessed. Please try again later.';
-
+$l['error_stop_forum_spam_spammer'] = 'Maalesef, {1} bilinen bir spam göndericininkiyle eşleşiyor ve bu nedenle iletişim gönderiminiz engellendi.';
+$l['error_stop_forum_spam_fetching'] = 'Maalesef, iletinizi spam gönderen bir veritabanıyla karşılaştırırken bir sorun oluştu. Büyük olasılıkla veritabanına erişilemedi. Lütfen daha sonra tekrar deneyiniz.';
