@@ -1,16 +1,16 @@
 <?php
+
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Turkish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_announcements'] = "Forum Announcement";
-$l['announcements'] = "Announcement";
-$l['forum_announcement'] = "Forum Announcement: {1}";
-$l['error_invalidannouncement'] = "The announcement specified is invalid.";
+$l['nav_announcements'] = "Forum Duyurusu";
+$l['announcements'] = "Duyuru";
+$l['forum_announcement'] = "Forum Duyurusu: {1}";
+$l['error_invalidannouncement'] = "Belirtilen duyuru geçersiz.";
 
-$l['announcement_edit'] = "Edit this announcement";
-$l['announcement_qdelete'] = "Delete this announcement";
-$l['announcement_quickdelete_confirm'] = "Are you sure you want to delete this announcement?";
-
+$l['announcement_edit'] = "Bu duyuruyu düzenleyin";
+$l['announcement_qdelete'] = "Bu duyuruyu silin";
+$l['announcement_quickdelete_confirm'] = "Bu duyuruyu silmek istediğinizden emin misiniz?";
