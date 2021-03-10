@@ -1,40 +1,41 @@
 <?php
+
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Turkish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['boardstats'] = "Board Statistics";
-$l['new_posts'] = "Forum Contains New Posts";
-$l['no_new_posts'] = "Forum Contains No New Posts";
-$l['forum_closed'] = "Forum is Closed";
-$l['forum_unapproved_posts_count'] = "There are currently {1} unapproved posts in this forum.";
-$l['forum_unapproved_post_count'] = "There is currently 1 unapproved post in this forum.";
-$l['forum_unapproved_threads_count'] = "There is currently {1} unapproved threads in this forum.";
-$l['forum_unapproved_thread_count'] = "There is currently 1 unapproved thread in this forum.";
-$l['forumstats'] = "Forum Statistics";
-$l['todays_birthdays'] = "Today's Birthdays";
-$l['birthdayhidden'] = "Hidden";
-$l['quick_login'] = "Quick Login:";
-$l['index_logout'] = "Log Out";
-$l['private_messages'] = "Private Messages";
-$l['pms_new'] = "You have {1} new messages since your last visit.";
-$l['pms_unread_total'] = "(You have {1} unread messages and {2} total messages in all of your folders.)";
-$l['stats_posts_threads'] = "Our members have made a total of {1} posts in {2} threads.";
-$l['stats_numusers'] = "We currently have {1} members registered.";
-$l['stats_newestuser'] = "Please welcome our newest member, <b>{1}</b>";
-$l['stats_mostonline'] = "The most users online at one time was {1} on {2} at {3}";
-$l['whos_online'] = "Who's Online";
-$l['complete_list'] = "Complete List";
-$l['online_online_plural'] = "users";
-$l['online_online_singular'] = "user";
-$l['online_member_plural'] = "members";
-$l['online_member_singular'] = "member";
-$l['online_anon_plural'] = "are";
-$l['online_anon_singular'] = "is";
-$l['online_guest_plural'] = "guests";
-$l['online_guest_singular'] = "guest";
-$l['online_note'] = "{1} {2} active in the past {3} minutes ({4} {5}, {6} of whom {7} invisible, and {8} {9}).";
-$l['subforums'] = "Sub Forums:";
+$l['boardstats'] = "Forum İstatistikleri";
+$l['new_posts'] = "Forum Yeni Gönderi İçeriyor";
+$l['no_new_posts'] = "Forum Yeni Gönderi İçermiyor";
+$l['forum_closed'] = "Forum Kapandı";
+$l['forum_unapproved_posts_count'] = "Şu anda bu forumda onaylanmamış {1} gönderi var.";
+$l['forum_unapproved_post_count'] = "Şu anda bu forumda onaylanmamış 1 gönderi var.";
+$l['forum_unapproved_threads_count'] = "Şu anda bu forumda {1} onaylanmamış konu var.";
+$l['forum_unapproved_thread_count'] = "Şu anda bu forumda onaylanmamış 1 başlık var.";
+$l['forumstats'] = "Forum İstatistikleri";
+$l['todays_birthdays'] = "Bugünün Doğum Günleri";
+$l['birthdayhidden'] = "Gizli";
+$l['quick_login'] = "Hızlı Giriş:";
+$l['index_logout'] = "Çıkış";
+$l['private_messages'] = "Özel Mesajlar";
+$l['pms_new'] = "Son ziyaretinizden bu yana {1} yeni mesajınız var.";
+$l['pms_unread_total'] = "(Tüm klasörlerinizde {1} okunmamış mesajınız ve {2} toplam mesajınız var.)";
+$l['stats_posts_threads'] = "Üyelerimiz toplam {2} konu ve {1} gönderi yaptı.";
+$l['stats_numusers'] = "Şu anda kayıtlı {1} üyemiz var.";
+$l['stats_newestuser'] = "<b>{1}</b>, hoş geldiniz.";
+$l['stats_mostonline'] = "Çevrimiçi en fazla kullanıcı, {3} saatinde {2} tarihinde {1} gerçekleşti.";
+$l['whos_online'] = "Kimler Çevrimiçi";
+$l['complete_list'] = "Tümü";
+$l['online_online_plural'] = "kullanıcı";
+$l['online_online_singular'] = "kullanıcı";
+$l['online_member_plural'] = "üye";
+$l['online_member_singular'] = "üye";
+$l['online_anon_plural'] = "";
+$l['online_anon_singular'] = "";
+$l['online_guest_plural'] = "misafir";
+$l['online_guest_singular'] = "misafir";
+$l['online_note'] = "Son {3} dakika içinde {1} kullanıcı çevrimiçi oldu. ({4} kayıtlı, {6} gizli ve {8} ziyaretçi.)";
+$l['subforums'] = "Alt Forumlar:";
 $l['board_stats_link_separator'] = ' | ';
