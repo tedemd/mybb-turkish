@@ -1,82 +1,83 @@
 <?php
+
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Turkish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_helpdocs'] = "Help Documents";
-$l['nav_smilies'] = "Smilie Listing";
-$l['nav_syndication'] = "Latest Thread Syndication (RSS)";
+$l['nav_helpdocs'] = "Yardım Belgeleri";
+$l['nav_smilies'] = "İfadeler Listesi";
+$l['nav_syndication'] = "Son Konu Sendikasyonu (RSS)";
 
-$l['buddy_list'] = "Buddy List";
-$l['online'] = "Online";
-$l['online_none'] = "<em>You have no online buddies</em>";
-$l['offline'] = "Offline";
-$l['offline_none'] = "<em>You have no offline buddies</em>";
+$l['buddy_list'] = "Arkadaşlarım";
+$l['online'] = "Çevrimiçi";
+$l['online_none'] = "<em>Çevrimiçi arkadaşınız yok</em>";
+$l['offline'] = "Çevrimdışı";
+$l['offline_none'] = "<em>Çevrimdışı arkadaşınız yok</em>";
 $l['delete_buddy'] = "X";
-$l['pm_buddy'] = "Send Private Message";
-$l['last_active'] = "<strong>Last Active:</strong> {1}";
-$l['close'] = "Close";
-$l['no_buddies'] = "<em>Your buddy list is currently empty. Use your User CP or visit a user profile to add users to your buddy list.</em>";
+$l['pm_buddy'] = "Özel Mesaj Gönder";
+$l['last_active'] = "<strong>Son Aktif:</strong> {1}";
+$l['close'] = "Kapat";
+$l['no_buddies'] = "<em>Arkadaş listeniz şu anda boş. Kullanıcıları arkadaş listenize eklemek için Kullanıcı KP'nizi kullanın veya bir kullanıcı profilini ziyaret edin.</em>";
 
-$l['help_docs'] = "Help Documents";
+$l['help_docs'] = "Yardım Belgeleri";
 
-$l['search_help_documents'] = "Search Help Documents";
-$l['search_by_name'] = "Search by Name";
-$l['search_by_document'] = "Search by Document";
-$l['enter_keywords'] = "Enter Keywords";
-$l['search'] = "Search";
-$l['redirect_searchresults'] = "Thank you, your search has been submitted and you will now be taken to the results list.";
-$l['search_results'] = "Search Results";
-$l['help_doc_results'] = "Help Document Results";
-$l['document'] = "Document";
-$l['error_nosearchresults'] = "Sorry, but no results were returned using the query information you provided. Please redefine your search terms and try again.";
-$l['no_help_results'] = "Sorry, but no results were returned using the query information you provided.";
-$l['error_helpsearchdisabled'] = "The ability to search the help documents has been disabled by the Administrator.";
+$l['search_help_documents'] = "Yardım Belgelerinde Arama";
+$l['search_by_name'] = "İsme Göre Arama";
+$l['search_by_document'] = "Belgeye Göre Arama";
+$l['enter_keywords'] = "Anahtar Kelimeleri Girin";
+$l['search'] = "Arama";
+$l['redirect_searchresults'] = "Teşekkürler, aramanız gönderildi ve şimdi sonuçlar listesine yönlendirileceksiniz.";
+$l['search_results'] = "Arama Sonuçları";
+$l['help_doc_results'] = "Yardım Belgesi Sonuçları";
+$l['document'] = "Belge";
+$l['error_nosearchresults'] = "Maalesef, sağladığınız sorgu bilgileri kullanılarak hiçbir sonuç döndürülmedi. Lütfen arama terimlerinizi yeniden tanımlayın ve tekrar deneyin.";
+$l['no_help_results'] = "Maalesef, sağladığınız sorgu bilgileri kullanılarak hiçbir sonuç döndürülmedi.";
+$l['error_helpsearchdisabled'] = "Yardım belgelerinde arama özelliği, Yönetici tarafından devre dışı bırakıldı.";
 
-$l['smilies_listing'] = "Smilies Listing";
-$l['name'] = "Name";
-$l['abbreviation'] = "Abbreviation";
-$l['click_to_add'] = "Click a smilie to insert it into your message";
-$l['close_window'] = "close window";
-$l['no_smilies'] = "There are currently no smilies available.";
+$l['smilies_listing'] = "İfadeler Listesi";
+$l['name'] = "İsim";
+$l['abbreviation'] = "Kısaltma";
+$l['click_to_add'] = "Mesajınıza eklemek için bir benzetmeyi tıklayın";
+$l['close_window'] = "pencereyi kapat";
+$l['no_smilies'] = "Şu anda herhangi bir ifade yok.";
 
-$l['who_posted'] = "Who Posted?";
-$l['total_posts'] = "Total Posts:";
-$l['user'] = "User";
-$l['num_posts'] = "# Posts";
+$l['who_posted'] = "Kim gönderdi?";
+$l['total_posts'] = "Toplam Gönderi:";
+$l['user'] = "Kullanıcı";
+$l['num_posts'] = "# Gönderiler";
 
-$l['forum_rules'] = "{1} - Rules";
+$l['forum_rules'] = "{1} - Kurallar";
 
-$l['error_invalid_limit'] = "The feed item limit you entered is invalid. Please specify a valid limit.";
+$l['error_invalid_limit'] = "Girdiğiniz yayın öğesi sınırı geçersiz. Lütfen geçerli bir limit belirtin.";
 
-$l['syndication'] = "Latest Thread Syndication";
-$l['syndication_generated_url'] = "Your Generated Syndication URL:";
-$l['syndication_note'] = "Below you can generate links to specific RSS syndication feeds. Links can be generated for all forums, per forum, or for a specific number of forums. You will then be presented with a link which you can copy in to an RSS reader. <i><a href=\"https://en.wikipedia.org/wiki/RSS\" target=\"_blank\" rel=\"noopener\">What is RSS?</a></i>";
-$l['syndication_forum'] = "Forum to Syndicate:";
-$l['syndication_forum_desc'] = "Please select a forum from the right. Use the CTRL key to select multiple forums.";
-$l['syndication_version'] = "Feed Version:";
-$l['syndication_version_desc'] = "Please select the version of the feeds you wish to generate.";
+$l['syndication'] = "Son Konu Sendikasyonu";
+$l['syndication_generated_url'] = "Oluşturulan Sendikasyon URL'niz:";
+$l['syndication_note'] = "Aşağıda, belirli RSS sendikasyon beslemelerine bağlantılar oluşturabilirsiniz. Bağlantılar tüm forumlar için, forum başına veya belirli sayıda forum için oluşturulabilir. Daha sonra, bir RSS okuyucusuna kopyalayabileceğiniz bir bağlantı sunulacak. <i><a href=\"https://en.wikipedia.org/wiki/RSS\" target=\"_blank\" rel=\"noopener\">RSS Nedir?</a></i>";
+$l['syndication_forum'] = "Sendikasyon Oluşturulacak Forum:";
+$l['syndication_forum_desc'] = "Lütfen sağdan bir forum seçin. Birden fazla forum seçmek için CTRL tuşunu kullanın. ";
+$l['syndication_version'] = "Besleme Versiyonu:";
+$l['syndication_version_desc'] = "Lütfen oluşturmak istediğiniz beslemelerin versiyonunu seçin.";
 $l['syndication_version_json1'] = "JSON Feed 1";
 $l['syndication_version_atom1'] = "Atom 1.0";
-$l['syndication_version_rss2'] = "RSS 2.00 (Default)";
-$l['syndication_generate'] = "Generate Syndication URL";
+$l['syndication_version_rss2'] = "RSS 2.00 (Varsayılan)";
+$l['syndication_generate'] = "Sendikasyon URL'si Oluşturun";
 $l['syndication_limit'] = "Limit:";
-$l['syndication_limit_desc'] = "The amount of threads to download at one time. 50 at once is maximum limit.";
-$l['syndication_threads_time'] = "threads at a time";
-$l['syndicate_all_forums'] = "Syndicate All Forums";
+$l['syndication_limit_desc'] = "Tek seferde indirilecek konu miktarı. Aynı anda 50 maksimum sınırdır.";
+$l['syndication_threads_time'] = "bir seferde konu";
+$l['syndicate_all_forums'] = "Tüm Forumları Oluştur";
 
-$l['redirect_markforumread'] = "The selected forum has been marked as read.";
-$l['redirect_markforumsread'] = "All the forums have been marked as read.";
-$l['redirect_forumpasscleared'] = "The stored password for this forum has been cleared.";
-$l['redirect_cookiescleared'] = "All cookies have been cleared.";
+$l['redirect_markforumread'] = "Seçilen forum okundu olarak işaretlendi.";
+$l['redirect_markforumsread'] = "Tüm forumlar okundu olarak işaretlendi.";
+$l['redirect_forumpasscleared'] = "Bu forum için saklanan şifre temizlendi.";
+$l['redirect_cookiescleared'] = "Tüm çerezler temizlendi.";
 
-$l['error_invalidforum'] = "Invalid forum";
-$l['error_invalidhelpdoc'] = "The specified help document does not appear to exist.";
-$l['error_invalidsearch'] = "An invalid search was specified.  Please go back and try again.";
-$l['error_no_search_support'] = "This database engine does not support searching.";
-$l['error_searchflooding'] = "Sorry, but you can only perform one search every {1} seconds. Please wait another {2} seconds before attempting to search again.";
-$l['error_searchflooding_1'] = "Sorry, but you can only perform one search every {1} seconds. Please wait another 1 second before attempting to search again.";
+$l['error_invalidforum'] = "Geçersiz forum";
+$l['error_invalidhelpdoc'] = "Belirtilen yardım belgesi mevcut görünmüyor.";
+$l['error_invalidsearch'] = "Geçersiz bir arama belirtildi. Lütfen geri dönün ve tekrar deneyin.";
+$l['error_no_search_support'] = "Bu veritabanı motoru aramayı desteklemiyor.";
+$l['error_searchflooding'] = "Üzgünüz, ancak her {1} saniyede bir arama yapabilirsiniz. Tekrar aramayı denemeden önce lütfen {2} saniye daha bekleyin.";
+$l['error_searchflooding_1'] = "Üzgünüz, ancak her {1} saniyede bir arama yapabilirsiniz. Tekrar aramayı denemeden önce lütfen 1 saniye daha bekleyin.";
 
-$l['dst_settings_updated'] = "Your daylight saving time settings have automatically been adjusted.<br /><br />You will now be taken back to the forum index.";
+$l['dst_settings_updated'] = "Yaz saati uygulaması ayarlarınız otomatik olarak ayarlandı.<br /><br />Şimdi forum dizinine geri yönlendirileceksiniz.";
