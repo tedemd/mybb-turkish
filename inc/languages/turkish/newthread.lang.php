@@ -1,54 +1,54 @@
 <?php
+
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Turkish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_newthread'] = "New Thread";
-$l['newthread_in'] = "New Thread in {1}";
-$l['post_new_thread'] = "Post a new Thread";
-$l['thread_subject'] = "Thread Subject:";
-$l['your_message'] = "Your Message:";
-$l['post_options'] = "Post Options:";
-$l['options_sig'] = "<b>Signature:</b> include your signature. (registered users only)";
-$l['options_emailnotify'] = "<b>Email Notification:</b> receive an email whenever there is a new reply. (registered users only)";
-$l['options_disablesmilies'] = "<b>Disable Smilies:</b> disable smilies from showing in this post.";
-$l['post_thread'] = "Post Thread";
-$l['preview_post'] = "Preview Post";
-$l['poll'] = "Poll:";
-$l['poll_desc'] = "Optionally you may attach a poll to this thread.";
-$l['poll_check'] = "I want to post a poll";
-$l['num_options'] = "Number of options:";
-$l['max_options'] = "(Maximum: {1})";
-$l['mod_options'] ="Moderator Options:";
-$l['close_thread'] = "<b>Close Thread</b>: prevent further posting in this thread.";
-$l['stick_thread'] = "<b>Stick Thread:</b> stick this thread to the top of the forum.";
-$l['draft_saved'] = "The new thread has successfully been saved as a draft.<br />You will now be taken to your draft listing.";
-$l['error_post_already_submitted'] = "You have already posted this thread in this forum. Please visit the forum to see your thread.";
-$l['no_prefix'] = "No Prefix";
-$l['forum_rules'] = "{1} - Rules";
+$l['nav_newthread'] = "Yeni Konu";
+$l['newthread_in'] = "{1} içinde Yeni Konu";
+$l['post_new_thread'] = "Yeni Konu Gönder";
+$l['thread_subject'] = "Konu Başlığı:";
+$l['your_message'] = "Mesajın:";
+$l['post_options'] = "Gönderi Seçenekleri:";
+$l['options_sig'] = "<b>İmza:</b> İmzanızı ekleyin. (Sadece kayıtlı kullanıcılar.)";
+$l['options_emailnotify'] = "<b>e-Posta Bildirimi:</b> Yeni bir yanıt geldiğinde bir e-posta alırsınız. (Sadece kayıtlı kullanıcılar.)";
+$l['options_disablesmilies'] = "<b>İfadeleri Devre Dışı Bırak:</b> İfadelerin bu yayında gösterilmesini devre dışı bırakın.";
+$l['post_thread'] = "Gönder";
+$l['preview_post'] = "Önizle";
+$l['poll'] = "Anket:";
+$l['poll_desc'] = "İsteğe bağlı olarak bu konuya bir anket ekleyebilirsiniz.";
+$l['poll_check'] = "Bir anket göndermek istiyorum";
+$l['num_options'] = "Seçenek sayısı:";
+$l['max_options'] = "(Maksimum: {1})";
+$l['mod_options'] = "Moderatör Seçenekleri:";
+$l['close_thread'] = "<b>Konuyu Kapat:</b> Konuya daha fazla gönderi yapılmasını önleyin.";
+$l['stick_thread'] = "<b>Konuyu Sabitle:</b> Konuyu forumun en üstüne yapıştırın.";
+$l['draft_saved'] = "Yeni konu taslak olarak başarıyla kaydedildi.<br />Şimdi taslak listenize yönlendirileceksiniz.";
+$l['error_post_already_submitted'] = "Bu konuyu bu forumda zaten yayınladınız. Lütfen başlığınızı görmek için forumu ziyaret edin.";
+$l['no_prefix'] = "Önek Yok";
+$l['forum_rules'] = "{1} - Kurallar";
 
-$l['multiquote_external_one'] = "You have selected one post from another thread.";
-$l['multiquote_external'] = "You have selected {1} posts from other threads.";
-$l['multiquote_external_one_deselect'] = "deselect this post";
-$l['multiquote_external_deselect'] = "deselect these posts";
-$l['multiquote_external_one_quote'] = "Quote this post too";
-$l['multiquote_external_quote'] = "Quote these posts too";
+$l['multiquote_external_one'] = "Başka bir konu başlığından bir gönderi seçtiniz.";
+$l['multiquote_external'] = "Diğer konudan {1} gönderi seçtiniz.";
+$l['multiquote_external_one_deselect'] = "bu gönderinin seçimini kaldırın";
+$l['multiquote_external_deselect'] = "bu gönderilerin seçimini kaldırın";
+$l['multiquote_external_one_quote'] = "Bu gönderiyi de alıntılayın";
+$l['multiquote_external_quote'] = "Bu gönderileri de alıntılayın";
 
-$l['redirect_newthread'] = "Thank you, your thread has been posted.";
-$l['redirect_newthread_poll'] = "<br />You will now be taken to the poll options and configuration page.";
-$l['redirect_newthread_moderation'] = "<br />The administrator has specified that all new threads require moderation. You will now be returned to the thread listing.";
-$l['redirect_newthread_unviewable'] = "<br />You do not have permission to view threads in this forum. You will now be returned to the forum.";
-$l['redirect_newthread_thread'] = "<br />You will now be taken to the new thread.";
-$l['invalidthread'] = "The specified draft does not exist or you don't have permission to view it.";
+$l['redirect_newthread'] = "Teşekkürler, konu gönderildi.";
+$l['redirect_newthread_poll'] = "<br />Şimdi anket seçeneklerine ve yapılandırma sayfasına yönlendirileceksiniz.";
+$l['redirect_newthread_moderation'] = "<br />Yönetici, tüm yeni konuların denetim gerektirdiğini belirtti. Şimdi konu listesine geri döneceksiniz.";
+$l['redirect_newthread_unviewable'] = "<br />Bu forumdaki konuları görüntüleme izniniz yok. Şimdi foruma geri döneceksiniz.";
+$l['redirect_newthread_thread'] = "<br />Şimdi yeni konuya yönlendirileceksiniz.";
+$l['invalidthread'] = "Belirtilen taslak mevcut değil veya onu görüntüleme izniniz yok.";
 
-$l['error_stop_forum_spam_spammer'] = 'Sorry, your {1} matches that of a known spammer. If you feel this is a mistake, please contact an administrator';
-$l['error_stop_forum_spam_fetching'] = 'Sorry, something went wrong verifying your thread against a spammer database. Most likely the database couldn\'t be accessed. Please try again later.';
+$l['error_stop_forum_spam_spammer'] = 'Maalesef, {1} bilginiz bilinen bir spam göndericininkiyle eşleşiyor. Bunun bir hata olduğunu düşünüyorsanız, lütfen bir yöneticiyle iletişime geçin.';
+$l['error_stop_forum_spam_fetching'] = 'Maalesef, konu spam gönderen bir veritabanıyla karşılaştırırken bir sorun oluştu. Büyük olasılıkla veritabanına erişilemedi. Lütfen daha sonra tekrar deneyiniz.';
 
-$l['error_suspendedposting'] = "Your posting privileges are currently suspended {1}.<br /><br />
+$l['error_suspendedposting'] = "Gönderme ayrıcalıklarınız şu anda askıya alınmış durumda {1}.<br /><br />
 
-Suspension Date: {2}";
-$l['error_suspendedposting_temporal'] = "until {1}";
-$l['error_suspendedposting_permanent'] = "permanently";
-
+Askıya Alma Tarihi: {2}";
+$l['error_suspendedposting_temporal'] = "{1} tarihine kadar";
+$l['error_suspendedposting_permanent'] = "kalıcı olarak";
