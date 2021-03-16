@@ -1,53 +1,53 @@
 <?php
+
 /**
- * MyBB 1.8 English Language Pack
+ * MyBB 1.8 Turkish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
  */
 
-$l['nav_newreply'] = "Post Reply";
+$l['nav_newreply'] = "Yanıt Gönder";
 
-$l['post_reply_to'] = "Post Reply to {1}";
-$l['post_new_reply'] = "Post a New Reply";
-$l['reply_to'] = "Reply to thread: {1}";
-$l['post_subject'] = "Post Subject:";
-$l['your_message'] = "Your Message:";
-$l['post_options'] = "Post Options:";
-$l['options_sig'] = "<strong>Signature:</strong> include your signature. (registered users only)";
-$l['options_emailnotify'] = "<strong>Email Notification:</strong> receive an email whenever there is a new reply. (registered users only)";
-$l['options_disablesmilies'] = "<strong>Disable Smilies:</strong> disable smilies from showing in this post.";
-$l['post_reply'] = "Post Reply";
-$l['preview_post'] = "Preview Post";
-$l['mod_options'] ="Moderator Options:";
-$l['close_thread'] = "<strong>Close Thread</strong>: prevent further posting in this thread.";
-$l['stick_thread'] = "<strong>Stick Thread:</strong> stick this thread to the top of the forum.";
-$l['forum_rules'] = "{1} - Rules";
-$l['thread_review'] = "Thread Review (Newest First)";
-$l['thread_review_more'] = "This thread has more than {1} replies. <a href=\"{2}\" target=\"_blank\">Read the whole thread.</a>";
-$l['posted_by'] = "Posted by";
-$l['draft_saved'] = "The new post has successfully been saved as a draft.<br />You will now be taken to your draft listing.";
-$l['error_post_already_submitted'] = "You have already posted this reply to the specified thread. Please visit the thread to see your reply.";
-$l['multiquote_external_one'] = "You have selected one post outside of this thread.";
-$l['multiquote_external'] = "You have selected {1} posts outside of this thread.";
-$l['multiquote_external_one_deselect'] = "deselect this post";
-$l['multiquote_external_deselect'] = "deselect these posts";
-$l['multiquote_external_one_quote'] = "Quote this post too";
-$l['multiquote_external_quote'] = "Quote these posts too";
+$l['post_reply_to'] = "{1} için Yanıt Gönder";
+$l['post_new_reply'] = "Yeni Bir Yanıt Gönder";
+$l['reply_to'] = "Konuyu yanıtla: {1}";
+$l['post_subject'] = "Gönderi Konusu:";
+$l['your_message'] = "Mesajın:";
+$l['post_options'] = "Gönderi Seçenekleri:";
+$l['options_sig'] = "<strong>İmza:</strong> İmzanızı ekleyin. (Sadece kayıtlı kullanıcılar.)";
+$l['options_emailnotify'] = "<strong>e-Posta Bildirimi:</strong> Yeni bir yanıt geldiğinde bir e-posta alırsınız. (Sadece kayıtlı kullanıcılar.)";
+$l['options_disablesmilies'] = "<strong>İfadeleri Devre Dışı Bırak:</strong> İfadelerin bu gönderide gösterilmesini devre dışı bırakın.";
+$l['post_reply'] = "Yenıt Gönder";
+$l['preview_post'] = "Gönderiyi Önizle";
+$l['mod_options'] = "Moderatör Seçenekleri:";
+$l['close_thread'] = "<strong>Konuyu Kapat</strong>: Konuya daha fazla gönderi yapılmasını önleyin.";
+$l['stick_thread'] = "<strong>Konuyu Sabitle:</strong> Konuyu forumun en üstüne yapıştırın.";
+$l['forum_rules'] = "{1} - Kurallar";
+$l['thread_review'] = "Konu İncelemesi (Önce En Yeniler)";
+$l['thread_review_more'] = "Bu konuda {1} adetten fazla yanıt var. <a href=\"{2}\" target=\"_blank\">Tüm konuyu okuyun.</a>";
+$l['posted_by'] = "Gönderen";
+$l['draft_saved'] = "Yeni gönderi taslak olarak başarıyla kaydedildi.<br />Şimdi taslak listenize yönlendirileceksiniz.";
+$l['error_post_already_submitted'] = "Bu yanıtı zaten belirtilen konu başlığına gönderdin. Yanıtınızı görmek için lütfen konuyu ziyaret edin.";
+$l['multiquote_external_one'] = "Bu konu dışında bir gönderi seçtiniz.";
+$l['multiquote_external'] = "Bu konu dışında {1} gönderi seçtiniz.";
+$l['multiquote_external_one_deselect'] = "bu gönderinin seçimini kaldırın";
+$l['multiquote_external_deselect'] = "bu gönderilerin seçimini kaldırın";
+$l['multiquote_external_one_quote'] = "Bu gönderiyi de alıntılayın";
+$l['multiquote_external_quote'] = "Bu gönderileri de alıntılayın";
 
-$l['redirect_newreply'] = "Thank you, your reply has been posted.";
-$l['redirect_newreply_moderation'] = "The administrator has specified that all new posts require moderation. You will now be returned to the thread.";
-$l['redirect_newreply_post'] = "<br />You will now be taken to your post.";
-$l['redirect_newreplyerror'] = "Sorry, but your reply has been rejected for lack of content. <br />You will now be returned to the thread.";
-$l['redirect_threadclosed'] = "You cannot post replies in this thread because it has been closed by a moderator.";
-$l['error_post_noperms'] = "You don't have permission to edit this draft.";
+$l['redirect_newreply'] = "Teşekkürler, yanıtınız gönderildi.";
+$l['redirect_newreply_moderation'] = "Yönetici, tüm yeni gönderilerin denetim gerektirdiğini belirtti. Şimdi konu başlığına geri döneceksiniz.";
+$l['redirect_newreply_post'] = "<br />Şimdi görev yerinize alınacaksınız.";
+$l['redirect_newreplyerror'] = "Üzgünüz, ancak yanıtınız içerik eksikliği nedeniyle reddedildi.<br />Şimdi başlığa geri döneceksiniz.";
+$l['redirect_threadclosed'] = "Bir moderatör tarafından kapatıldığı için bu konuya cevap gönderemezsiniz.";
+$l['error_post_noperms'] = "Bu taslağı düzenleme izniniz yok.";
 
 
-$l['error_stop_forum_spam_spammer'] = 'Sorry, your {1} matches that of a known spammer. If you feel this is a mistake, please contact an administrator';
-$l['error_stop_forum_spam_fetching'] = 'Sorry, something went wrong verifying your reply against a spammer database. Most likely the database couldn\'t be accessed. Please try again later.';
+$l['error_stop_forum_spam_spammer'] = 'Maalesef, {1} bilginiz bilinen bir spam göndericininkiyle eşleşiyor. Bunun bir hata olduğunu düşünüyorsanız, lütfen bir yöneticiyle iletişime geçin.';
+$l['error_stop_forum_spam_fetching'] = 'Maalesef, yanıtınız spam gönderen bir veritabanına karşı doğrulanırken bir şeyler ters gitti. Büyük olasılıkla veritabanına erişilemedi. Lütfen daha sonra tekrar deneyiniz.';
 
-$l['error_suspendedposting'] = "Your posting privileges are currently suspended {1}.<br /><br />
+$l['error_suspendedposting'] = "Gönderme ayrıcalıklarınız şu anda askıya alınmış durumda {1}.<br /><br />
 
-Suspension Date: {2}";
-$l['error_suspendedposting_temporal'] = "until {1}";
-$l['error_suspendedposting_permanent'] = "permanently";
-
+Askıya Alma Tarihi: {2}";
+$l['error_suspendedposting_temporal'] = "{1} tarihine kadar";
+$l['error_suspendedposting_permanent'] = "kalıcı olarak";
